@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Car2024</string>
+    <string name="sp_data">80</string>
+    <string name="cd_data">20</string>
+    <string name="angle_data">450</string>
+    <string name="speed">速度:</string>
+    <string name="coded_disc">码盘:</string>
+    <string name="angle_disc">角度:</string>
+    <string name="main_status">主车状态</string>
+    <string name="follow_status">从车状态</string>
+    <string name="main_control">主车控制</string>
+    <string name="follow_control">从车控制</string>
+    <string name="angle_control">角度控制</string>
+    <string name="coded_control">码盘控制</string>
+    <string name="clear_coded_disc">清除码盘</string>
+
+    <string name="position_car">预设位</string>
+    <string name="qrtbtn">二维码</string>
+    <string name="chief">主车状态</string>
+    <string name="digital_title">第几行数据:</string>
+    <string name="voicetext">播报的文本:</string>
+    <string name="voiceText"></string>
+    <string name="FIRST_NAME">牢大不坠机</string>
+
+    <string name="use_uart">使用有线连接</string>
+    <string name="use_socket">使用无线连接</string>
+    <string name="full_auto">启动!</string>
+
+    <string name="first_main">AI</string>
+    <string name="zigbee_task">Zigbee控制</string>
+    <string name="infred_task">红外通信</string>
+    <string name="smart_control">摄像头</string>
+    <string name="cut_camera">开启相机</string>
+    <string name="cut_car_camera">关闭相机</string>
+</resources>

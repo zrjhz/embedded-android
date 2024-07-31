@@ -1,0 +1,3 @@
+D:/Competition/Embedded/Code/android/Car2024/app/.cxx/Debug/326a1qav/x86/CMakeFiles/yolov5ncnn.dir
+D:/Competition/Embedded/Code/android/Car2024/app/.cxx/Debug/326a1qav/x86/CMakeFiles/edit_cache.dir
+D:/Competition/Embedded/Code/android/Car2024/app/.cxx/Debug/326a1qav/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+D:\Competition\Embedded\Code\android\Car2024\app\src\main\cpp\CMakeLists.txt

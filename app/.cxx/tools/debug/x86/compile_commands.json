@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Competition/Embedded/Code/android/Car2024/app/.cxx/Debug/326a1qav/x86",
+  "command": "D:\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolov5ncnn_EXPORTS -isystem D:/Competition/Embedded/Code/android/Car2024/app/src/main/cpp/ncnn-20230223-android-vulkan/x86/include/ncnn -isystem D:/Competition/Embedded/Code/android/Car2024/app/src/main/cpp/opencv_m/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolov5ncnn.dir\\yolov5ncnn_jni.cpp.o -c D:\\Competition\\Embedded\\Code\\android\\Car2024\\app\\src\\main\\cpp\\yolov5ncnn_jni.cpp",
+  "file": "D:\\Competition\\Embedded\\Code\\android\\Car2024\\app\\src\\main\\cpp\\yolov5ncnn_jni.cpp"
+}
+]

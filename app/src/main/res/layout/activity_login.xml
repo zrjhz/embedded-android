@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="fill_parent"
+        android:layout_height="335dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@mipmap/title_icon"
+        android:gravity="center"
+        android:text="请选择连接方式"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/transmit_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/use_socket"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/loginbutton"
+            android:text="连接"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

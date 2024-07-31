@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="5"
+        android:background="@drawable/bg_selete_all">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="visible" />
+
+        <TextureView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/showip"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:alpha="0.6"
+            android:gravity="center|bottom"
+            android:lines="2"
+            android:padding="8dp"
+            android:text="请重启设备！"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/reference_background"
+            android:drawableEnd="@drawable/ic_autorenew"
+            android:paddingEnd="10dp"
+            android:text="刷 新"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/save_photo_btn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/reference_background"
+            android:drawableEnd="@drawable/ic_save"
+            android:paddingEnd="10dp"
+            android:text="保 存"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/switchover_photo_btn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1.1"
+            android:background="@drawable/reference_background"
+            android:drawableEnd="@drawable/cut_pic_ic"
+            android:paddingEnd="10dp"
+            android:text="@string/cut_camera"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</LinearLayout>
